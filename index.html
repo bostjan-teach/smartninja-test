@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character set -> UTF-8 -->
+    <title>Title</title>
+    <style>
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!--
+        DRY -> DO NOT REPEAT YOURSELF!
+
+        CSS:
+
+        element {
+            attribute: value;
+            attribute2: value2;
+            attribute3: value3;
+        }
+
+        element -> p, br, table, span, a, img ...
+        through attributes -> #element, .element
+
+        Examples:
+
+        p {} -> targets all paragraphs
+        #ID -> ID
+        .CLASS -> all elements with class name
+
+        p.class -> for all paragraphs with class name
+        span.class -> for all spans with class name
+        ...
+
+        TARGETING SPECIFIC ELEMENTS
+
+        Two attributes are possible on every HTML element:
+
+        ID              #
+        Usage: mobile menu, desktop menu -> #mobileMenu, #desktopMenu
+
+        CLASS           .
+        Usage: mostly styling and these can be reused!
+
+        HOW TO USE CSS?
+
+        - Inline (directly on elements)
+        - Style tag (head) <style>insert css</style>
+        - Include external CSS file (<link>, style.css)
+    -->
+</head>
+<body>
+    <h1>RGB LESSON</h1>
+    <p class="red">This should be error red dude? OR NOT?</p>
+    <p class="blue">This should also be red?</p>
+    <p class="rgb">
+        The RGB spectre:
+        <span class="red rgb-small">R</span>
+        <span class="green rgb-big">G</span>
+        <span class="blue rgb-medium">B</span>
+    </p>
+
+    <!-- One element can have multiple classes! -->
+    <p>
+        <i class="fas fa-cloud"></i>
+        <i class="fas fa-heart"></i>
+        <i class="fas fa-car"></i>
+        <i class="fas fa-file"></i>
+        <i class="fas fa-bars"></i>
+        <i class="fa-regular fa-address-card"></i>    </p>
+    <!--
+
+                        p.rgb           -> font-size: 20px;
+
+                /       |           \
+
+            span.red   span.blue    span.green
+
+    -->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zBR2LlutVRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

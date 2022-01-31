@@ -1,0 +1,8 @@
+"OLD" VERSION CONTROL SYSTEMS
+
+SVN -> Subversion
+CVS -> ...
+Microsoft code solution??
+
+
+
